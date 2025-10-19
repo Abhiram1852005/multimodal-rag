@@ -22,18 +22,6 @@ This project is built to demonstrate a **production-style pipeline** while remai
 
 ---
 
-## 🔎 Architecture (End-to-End)
-
-```mermaid
-flowchart LR
-    A[Upload PDF/Image/Docx/YouTube URL] --> B[Extract Text (pdfminer/pytesseract/YT captions)]
-    B --> C[Chunking (450 tokens with overlap)]
-    C --> D[Embed using Sentence Transformers]
-    D --> E[FAISS Vector Store (Inner Product)]
-    E -->|Top-k retrieved chunks| F[Gemini 1.5 Flash]
-    F --> G[Grounded Final Answer + Citations]
-````
-
 ---
 
 ## 🛠 Tech Stack
