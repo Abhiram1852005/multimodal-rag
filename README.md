@@ -88,13 +88,13 @@ http://localhost:8000/
 ![Upload](./screenshots/upload.png)
 
 ### 2) Ingestion Pipeline  
-![Ingestion](./screenshots/ingestion.png)
+![Ingestion](./screenshots/Ingestion.png)
 
 ### 3) Top-k Retrieval  
-![Retrieval](./screenshots/retrieval.png)
+![Retrieval](./screenshots/Retrieval.png)
 
 ### 4) Grounded Gemini Answer  
-![Answer](./screenshots/answer.png)
+![Answer](./screenshots/Answer.png)
 
 
 ---
